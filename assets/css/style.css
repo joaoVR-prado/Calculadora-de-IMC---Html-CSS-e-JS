@@ -45,12 +45,14 @@ body{
   
 }  
 
+/* Classe para estilizar caso os dados sejam Validos */
 .valido{
   font-weight: 500;
   background-color: #90ee90;
 
 }
 
+/* Classe para estilizar caso os dados sejam Invalidos */
 .invalido{
   font-weight: 500;
   background-color: red;
