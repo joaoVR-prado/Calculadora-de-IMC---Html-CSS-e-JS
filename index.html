@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="./assets/css/style.css">
+    <title> Modelo </title>
+</head>
+<body>
+
+
+  <section class="container">
+    
+    <div class="float-container">
+      <div class="float-child">
+        <h1> IMC </h1>
+        <P> Menor do que 18,5 </P>
+        <P> Entre 18,5 e 24,9 </P>
+        <P> Entre 25 e 29,9 </P>
+        <P> Entre 30 e 34,9 </P>
+        <P> Entre 35 e 39,9 </P>
+        <P> Mais do que 40 </P>
+      </div>
+
+      <div class="float-child">
+        <h1> Resultado </h1>
+        <P> Abaixo do Peso </P>
+        <P> Peso Normal </P>
+        <P> Sobrepeso </P>
+        <P> Obsesidade grau 1 </P>
+        <P> Obesidade grau 2 </P>
+        <P> Obsesidade grau 3 </P>
+      </div>
+
+    </div>
+
+    <h1> O IMC </h1>
+    <P> Índice de Massa Corporal (IMC) é um indicador de 
+      composição corporal recomendado pela Organização Mundial 
+      de Saúde (OMS) para classificação do estado nutricional. 
+      O IMC relaciona peso e altura, e os resultados são apresentados 
+      em magreza, normalidade, sobrepeso e obesidade. </P>
+
+    <h1> Calcule Seu IMC: </h1>
+
+    <form action="" method="get" class="form">
+
+      <label for="input-peso"> Peso: (EX: 80) </label>
+      <input type="text" class="input-peso">
+
+      <label for="input-altura"> Altura: (EX: 1.78) </label>
+      <input type="text" class="input-altura">
+
+      <button> Calcular </button>
+
+    </form>
+
+    <div class="resultado">
+        
+    </div>
+
+  </section>
+
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
